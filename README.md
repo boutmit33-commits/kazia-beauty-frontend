@@ -17,6 +17,11 @@ Built during my internship at Kazia Solutions.
 ### Home
 ![Home](screenshots/home.png)
 
+### Product page
+![Product page](screenshots/product
+.png)
+
+
 ### Cart
 ![Cart](screenshots/cart.png)
 
