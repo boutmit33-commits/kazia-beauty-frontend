@@ -39,14 +39,15 @@ export default function CheckoutPage() {
 
     const response = await fetch('http://127.0.0.1:8000/api/orders', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+            headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
       body: JSON.stringify(order),
     });
 
     if (response.ok) {
       router.push('/order-confirmation');
     } else {
-      alert('Something went wrong. Please try again.');
+      const data = await response.json();
+      alert(data.message || 'Something went wrong. Please try again.');
     }
   };
 
