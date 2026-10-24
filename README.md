@@ -18,8 +18,7 @@ Built during my internship at Kazia Solutions.
 ![Home](screenshots/home.png)
 
 ### Product page
-![Product page](screenshots/product
-.png)
+![Product page](screenshots/product.png)
 
 
 ### Cart
